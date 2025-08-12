@@ -41,6 +41,13 @@ proc humanTypeSystemWide(text: string, baseDelayMs = 80, jitterMs = 40) =
       if rand(1..100) <= 2:
         os.sleep(500 + rand(0..800))
 
+    # Slight chance to input a random letter and delete it
+    if rand(1..100) <= 5:
+      let randomChar = chr(rand(97..122)) # Random lowercase letter
+      discard execCmd("xdotool type --delay 0 -- \"" & randomChar & "\"")
+      os.sleep(300 + rand(300..500)) # Pause to simulate realization of mistake
+      discard execCmd("xdotool key BackSpace")
+
 when isMainModule:
   var inputText = ""
 

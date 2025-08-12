@@ -10,6 +10,7 @@ A Nim-based typing automation tool that simulates human typing system-wide with 
 * Supports a Google Docs mode to handle dash autocorrection quirks
 * Reads input text from a file or standard input
 * No dependency on heavy GUI libraries; uses `xdotool` for system-wide input simulation
+* Purposefully makes mistakes and fixes them.
 
 ## Requirements
 
@@ -47,3 +48,8 @@ The program normalizes special quotes and dashes, then uses `xdotool` to type ea
 ## Sample Test Essay
 
 Use the included `sample.txt` file or your own text to test the bot. The bot is designed to handle a wide variety of English grammar and punctuation correctly.
+
+## Credits
+
+- xytrux (me)
+- COMMANDER
