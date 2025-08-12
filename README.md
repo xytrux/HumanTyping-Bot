@@ -46,4 +46,4 @@ The program normalizes special quotes and dashes, then uses `xdotool` to type ea
 
 ## Sample Test Essay
 
-Use the included `test.txt` file or your own text to test the bot. The bot is designed to handle a wide variety of English grammar and punctuation correctly.
+Use the included `sample.txt` file or your own text to test the bot. The bot is designed to handle a wide variety of English grammar and punctuation correctly.
