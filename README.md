@@ -51,5 +51,5 @@ Use the included `sample.txt` file or your own text to test the bot. The bot is 
 
 ## Credits
 
-- xytrux (me)
-- COMMANDER
+- [@xytrux](https://github.com/xytrux)
+- [@COMMANDERII](https://github.com/COMMANDERII)
